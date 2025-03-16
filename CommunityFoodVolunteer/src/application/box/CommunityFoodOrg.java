@@ -1,7 +1,7 @@
 package application.box;
 /**
  * Class CommunityFoodOrg
- * author: June Noblitt
+ * author: seleucidPh
  * createdL 03/12/2025
  */
 public class CommunityFoodOrg{

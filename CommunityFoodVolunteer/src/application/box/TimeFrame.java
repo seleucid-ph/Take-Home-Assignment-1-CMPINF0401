@@ -1,7 +1,7 @@
 package application.box;
 /**
  * Class TimeFrame
- * author: June Noblitt
+ * author: seleucidPh
  * createdL 03/10/2025
  */
 public class TimeFrame{

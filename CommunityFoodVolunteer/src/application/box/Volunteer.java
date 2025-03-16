@@ -1,7 +1,7 @@
 package application.box;
 /**
  * Class Volunteer
- * author: June Noblitt
+ * author: seleucidPh
  * created 03/14/2025
  */
 
