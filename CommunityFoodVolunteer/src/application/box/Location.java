@@ -1,5 +1,9 @@
 package application.box;
-
+/**
+ * Class Location
+ * author: June Noblitt
+ * created 03/09/2025
+ */
 public class Location{
 		final public double EARTH_RADIUS = 3958.8;
 		
@@ -23,6 +27,9 @@ public class Location{
 		
 		//latitude get-set
 		public double getLatitude() {
+			if(latitude > 90 || latitude < -90) {
+				latitude = 0;
+			}
 			return latitude;
 		}
 		public void setLatitude(double getLatitude) {
@@ -31,6 +38,9 @@ public class Location{
 		
 		//longitude get-set
 		public double getLongitude() {
+			if(longitude > 180 || longitude < -180) {
+				longitude = 0;
+			}
 			return longitude;
 		}
 		public void setLongitude(double getLongitude) {
